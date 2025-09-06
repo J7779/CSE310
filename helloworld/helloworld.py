@@ -50,10 +50,6 @@ def animated_border():
 def main():
     clear_screen()
     
-    print('\n')
-    type_text('    🚀 ANIMATED HELLO WORLD 🚀', Colors.BOLD + Colors.MAGENTA, 0.08)
-    print('\n')
-    
     time.sleep(0.5)
     
     animated_border()
